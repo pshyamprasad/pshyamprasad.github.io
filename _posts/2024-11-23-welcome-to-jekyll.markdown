@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Sarus World!"
 date:   2024-11-23 18:05:30 +0530
 categories: jekyll update
 ---
