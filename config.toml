@@ -177,7 +177,7 @@ id = ""
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel:+12 34 567 89 01"
+    url = "tel:"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
 [[menu.topbar]]
@@ -201,7 +201,7 @@ id = ""
 [[menu.topbar]]
     weight = 5
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:sarusworld@outlook.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -287,9 +287,9 @@ id = ""
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+910 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto: Shyam@hello.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Contact us on sarusworld@outlook.com.</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+91" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+      <a href="mailto: sarusworld@outlook.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
 
