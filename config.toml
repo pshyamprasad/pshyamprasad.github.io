@@ -44,25 +44,9 @@ id = ""
 [[menu.main]]
     name       = "Profile"
     identifier = "menu.portfolio"
-    url        = "/img/template-homepage.png"
+    url        = "/profile"
     weight     = 3
 
-
-
-
-[[menu.main]]
-    name       = "About"
-    identifier = "section.about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.portfolio"
-    post       = 2
-
-[[menu.main]]
-    name       = "About Us"
-    url        = "/profile"
-    weight     = 1
-    parent     = "section.about"
 
 [[menu.main]]
     identifier = "contact"
