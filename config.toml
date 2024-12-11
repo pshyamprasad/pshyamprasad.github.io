@@ -59,30 +59,19 @@ id = ""
 
 [[menu.topbar]]
     weight = 1
-    name = "Phone"
-    url = "tel:"
-    pre = "<i class='fas fa-2x fa-phone'></i>"
-
-[[menu.topbar]]
-    weight = 2
     name = "GitHub"
     url = "https://github.com/SarusMarket/miniature-goggles"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
+    weight = 2
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/shyam-prasad-arch/"
+    pre = "<i class='fab fa-2x fa-linkedin'></i>"
+
+
+[[menu.topbar]]
     weight = 3
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 4
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 5
     name = "Email"
     url = "mailto:sarusworld@outlook.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
@@ -100,7 +89,7 @@ id = ""
     default_sharing_image = "img/sharing-default.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    enableGoogleMaps = true
+    enableGoogleMaps = false
     googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
 
     latitude = "-12.043333"
@@ -219,7 +208,7 @@ id = ""
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -227,7 +216,7 @@ id = ""
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more information take a look at the README.
@@ -235,13 +224,13 @@ id = ""
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
     hide_summary = false
 
 [params.footer.recent_posts]
-    enable = true
+    enable = false
 
 [taxonomies]
   category = "categories"
