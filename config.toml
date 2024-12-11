@@ -36,24 +36,8 @@ id = ""
 [[menu.main]]
     name       = "Services"
     identifier = "menu.features"
-    url        = "/img/template-easy-customize.png"
-    weight     = 3
-
-[[menu.main]]
-    name       = "Shortcodes"
-    identifier = "section.shortcodes"
-    url        = ""
-    weight     = 1
-    parent     = "menu.features"
-    post       = 1
-
-
-
-[[menu.main]]
-    name       = "services"
     url        = "/services"
-    weight     = 1
-    parent     = "section.shortcodes"
+    weight     = 3
 
 
 
