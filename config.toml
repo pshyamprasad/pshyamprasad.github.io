@@ -47,13 +47,7 @@ id = ""
     parent     = "menu.features"
     post       = 1
 
-[[menu.main]]
-    name       = "Header variations"
-    identifier = "section.headervariations"
-    url        = ""
-    weight     = 2
-    parent     = "menu.features"
-    post       = 2
+
 
 [[menu.main]]
     name       = "services"
@@ -61,11 +55,6 @@ id = ""
     weight     = 1
     parent     = "section.shortcodes"
 
-[[menu.main]]
-    name       = "Default Sticky Header"
-    url        = ""
-    weight     = 1
-    parent     = "section.headervariations"
 
 
 [[menu.main]]
