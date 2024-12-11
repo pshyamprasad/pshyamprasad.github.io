@@ -11,11 +11,11 @@ section:
 # Your achievements achievements
 achievements:
 - title: TOGAF
-  image: /images/sections/achievements/the-open-group-certified-togaf-standard-version-9-2.png
+  #image: /images/sections/achievements/the-open-group-certified-togaf-standard-version-9-2.png
   summary: TOGAF.
 - title: Azure Certified Solutions Architect
-  image: /images/sections/achievements/microsoft-certified-azure-fundamentals.png
+  #image: /images/sections/achievements/microsoft-certified-azure-solutions-architect-expert.png
   summary: Azure Certified Solutions Architect
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Engineering (BE) in Mechanical Engineering from SLN College of Engineering.
+#- title: Graduation
+  #image: /images/sections/achievements/graduation-cap.jpg
+#  summary: Received Bachelor of Engineering (BE) in Mechanical Engineering from SLN College of Engineering.
