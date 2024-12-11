@@ -61,35 +61,6 @@ id = ""
     weight     = 1
     parent     = "section.portfolio"
 
-[[menu.main]]
-    name       = "Experience"
-    url        = "profile/experiences"
-    weight     = 2
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "Education"
-    url        = "profile/education"
-    weight     = 3
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "Projects"
-    url        = "profile/project"
-    weight     = 4
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "Accomplishments"
-    url        = "profile/accomplishments"
-    weight     = 5
-    parent     = "section.portfolio"
-
-[[menu.main]]
-    name       = "Acheivements"
-    url        = "profile/achievements"
-    weight     = 6
-    parent     = "section.portfolio"
 
 
 [[menu.main]]
@@ -105,27 +76,6 @@ id = ""
     url        = "/profile"
     weight     = 1
     parent     = "section.about"
-
-[[menu.main]]
-    name       = "Our Team"
-    url        = ""
-    weight     = 2
-    parent     = "section.about"
-
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.portfolio"
-    post       = 2
-
-[[menu.main]]
-    name       = "Testimonials"
-    url        = ""
-    weight     = 1
-    parent     = "section.marketing"
-
 
 [[menu.main]]
     identifier = "contact"
