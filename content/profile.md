@@ -1,6 +1,6 @@
 +++
 draft = false
-title = 'Achievements'
+title = 'Profile'
 type = 'profileview'
 
 +++
