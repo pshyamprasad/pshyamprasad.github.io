@@ -47,19 +47,6 @@ id = ""
     url        = "/img/template-homepage.png"
     weight     = 3
 
-[[menu.main]]
-    name       = "Profile"
-    identifier = "section.portfolio"
-    url        = "/profile"
-    weight     = 1
-    parent     = "menu.portfolio"
-    post       = 1
-
-[[menu.main]]
-    name       = "Skills"
-    url        = "profile/skills"
-    weight     = 1
-    parent     = "section.portfolio"
 
 
 
