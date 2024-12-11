@@ -153,17 +153,6 @@ id = ""
     weight     = 1
     parent     = "section.marketing"
 
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 5
-
-[[menu.main]]
-    name       = "FAQ"
-    identifier = "menu.faq"
-    url        = "/faq/"
-    weight     = 6
 
 [[menu.main]]
     identifier = "contact"
