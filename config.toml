@@ -14,13 +14,6 @@ paginate = 10
 # not pluralize title pages by default
 pluralizelisttitles = false
 
-[services]
-[services.disqus]
-# Enable comments by entering your Disqus shortname
-Shortname = "devcows"
-[services.googleAnalytics]
-# Enable Google Analytics by entering your tracking code
-id = ""
 
 [menu]
 
@@ -77,12 +70,6 @@ id = ""
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
-    defaultDescription = "Site template made by Devcows using Hugo"
-
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
@@ -153,8 +140,6 @@ id = ""
       </p>
       """
 
-[permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
@@ -166,10 +151,6 @@ id = ""
       """
 
 # Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = true
-    tags = true
-    search = true
 
 [params.carouselCustomers]
     items = 6
@@ -198,41 +179,3 @@ id = ""
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more information take a look at the README.
-
-[params.testimonials]
-    enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more information take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
-
-[params.see_more]
-    enable = false
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
-
-[params.clients]
-    enable = false
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more information take a look at the README.
-    title = "Orgnaizations"
-    subtitle = ""
-
-[params.recent_posts]
-    enable = false
-    title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
-    hide_summary = false
-
-[params.footer.recent_posts]
-    enable = false
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  author = "authors"
