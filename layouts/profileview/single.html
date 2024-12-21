@@ -4,54 +4,26 @@
   <head>
     {{ partial "headers.html" . }}
     {{ partial "custom_headers.html" . }}
+    
   </head>
 
   <body>
 
-    <div id="all">
-        {{ partial "top.html" . }}
-
-        {{ partial "nav.html" . }}
-
-        
-
+    <div id="body">
+      {{ partial "top.html" . }}
+      {{ partial "nav.html" . }}
         <div id="content">
-            {{ if isset .Params "id" }}
-
-              {{ partial .Params.id . }}
-
-            {{ else }}
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-12">
-
-                        <div>
-                         {{ partial "sections/skills" . }}
-                         {{ partial "sections/experiences" . }}
-                         {{ partial "sections/project" . }}
-                         {{ partial "sections/achievements" . }}
-                          {{ .Content }}
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.container -->
-
-            {{ end }}
+              
+                {{ template "profileview/profile.html" . }}
+              
+            
         </div>
         <!-- /#content -->
 
         {{ partial "footer.html" . }}
 
     </div>
-    <!-- /#all -->
+    <!-- /#profile -->
 
     {{ partial "scripts.html" . }}
 

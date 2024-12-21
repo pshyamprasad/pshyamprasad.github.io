@@ -8,7 +8,7 @@
 
   <body>
 
-    <div id="all">
+    <div id="page">
         {{ partial "top.html" . }}
 
         {{ partial "nav.html" . }}
@@ -22,7 +22,7 @@
 
             {{ else }}
 
-            <div class="container">
+            <div class="container-sm">
 
                 <div class="row">
 
@@ -47,7 +47,7 @@
         {{ partial "footer.html" . }}
 
     </div>
-    <!-- /#all -->
+    <!-- /#page -->
 
     {{ partial "scripts.html" . }}
 

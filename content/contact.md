@@ -3,6 +3,4 @@ title = "Contact"
 id = "contact"
 +++
 
-# We are here to help you
-
-Please feel free to contact us.
+# For IT Services reach us at:  sarusworld@outlook.com

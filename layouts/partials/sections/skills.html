@@ -1,3 +1,7 @@
+<span class="section_header">Skills</span>
+<div class="row row-cols-lg-3 row-cols-md-2 g-4">
+    
 {{ range .Site.Data.profilemodel.skills.skills }}
-  {{ partial "cards/skill.html" . }}
+    {{ partial "cards/skill.html" . }}
 {{ end }}
+</div>
