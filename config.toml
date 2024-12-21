@@ -45,20 +45,20 @@ defaultContentLanguage = "en"
     weight = 1
     name = "GitHub"
     url = "https://github.com/SarusMarket/miniature-goggles"
-    pre = "<i class='fab fa-2x fa-github'></i>"
+    pre = "<i class='bi bi-github'></i>"
 
 [[menu.topbar]]
     weight = 2
     name = "Linkedin"
     url = "https://www.linkedin.com/in/shyam-prasad-arch/"
-    pre = "<i class='fab fa-2x fa-linkedin'></i>"
+    pre = "<i class='bi bi-linkedin'></i>"
 
 
 [[menu.topbar]]
     weight = 3
     name = "Email"
     url = "mailto:sarusworld@outlook.com"
-    pre = "<i class='fas fa-2x fa-envelope'></i>"
+    pre = "<i class='bi bi-envelope-fill'></i>"
 
 [params]
     
@@ -82,7 +82,7 @@ defaultContentLanguage = "en"
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    text = """<p class="hidden-sm hidden-xs">Contact us on <a href="mailto: sarusworld@outlook.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>.</p>"""
+    text = """<p class="hidden-sm hidden-xs">Contact us on <a href="mailto: sarusworld@outlook.com" data-animate-hover="pulse"><i class="bi bi-envelope-fill"></i></a>.</p>"""
 
 [params.services]
     cols = 3 # Default: 3, Available values 2,3,4,6
